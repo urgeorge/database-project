@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C730739-1BAC-5573-594E-B58FD26C7802" name="ExamScore">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>DCECB471-A94D-263C-EED1-54A0E8088990</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ScoreValue" id="F8A3A351-69F5-D53D-16EC-E3CB6FC00BA0">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>82DF7AF0-B852-0B42-E3D1-6DCD0261D5EE</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ExamDurationInSeconds" id="6AA95371-E80B-716A-87E7-358C47378B6C">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<comment>In seconds</comment>
+<generatorID>BD0D0542-239C-5C33-4D72-D9FB732C9C58</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_IDStudent" id="72D6737F-EFAD-70AA-F5ED-1EA999BC9F5E">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>A1F14D6A-6D3F-894B-21C2-0CCA73A511BF</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3A5A67B-B532-4487-72AC-F6EBEBB01EF7" referredColumn="90E7C527-9E2C-7314-19FA-CB182F023105"/>
+</associations>
+</Column>
+<Column name="Exam_IDExam" id="96EFED7B-0BB8-7A96-6781-167D150408F2">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>1CA16E78-4151-B94E-ED3F-D4992544362C</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC71C67F-39BB-BD0B-C7E5-BFB992221448" referredColumn="3281E629-5C7D-2FFA-DF5B-FC8309C3B832"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42A33F91-B938-ABBC-2386-9DF60EA0928F" name="ExamScore_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>33215D7A-C1E2-2B8C-89BB-4D1C0E8C1323</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72D6737F-EFAD-70AA-F5ED-1EA999BC9F5E"/>
+<colUsage columnID="96EFED7B-0BB8-7A96-6781-167D150408F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4978E14B-3787-6146-446A-251BAD976F7C" name="ExamScore_Student_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>C17FC657-3909-EE55-BDD2-A670DD496711</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72D6737F-EFAD-70AA-F5ED-1EA999BC9F5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4B411DC-8245-5A10-B043-887DD285C244" name="ExamScore_Exam_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:58 UTC</createdTime>
+<generatorID>F90C5068-3EFB-5E39-8E9F-53F422352D3D</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96EFED7B-0BB8-7A96-6781-167D150408F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

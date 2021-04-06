@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="734A3F0A-F97F-10A3-67F3-4F2A5773A8BF" name="Examiner">
+<createdBy>oracle</createdBy>
+<createdTime>2020-10-29 15:33:38 UTC</createdTime>
+<ownerDesignName>model_nasz</ownerDesignName>
+<engineerTo>
+<item key="8ACFF2B7-3444-29DD-0328-321C5C6E3EC4" value="true"/>
+<item key="9200F579-A093-BFE7-82F1-68BB2098C93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDExaminer" id="3B0CF220-C393-A39B-7168-41BEA6B282B0">
+<createdBy>oracle</createdBy>
+<createdTime>2020-10-29 15:34:00 UTC</createdTime>
+<ownerDesignName>model_nasz</ownerDesignName>
+<engineerTo>
+<item key="8ACFF2B7-3444-29DD-0328-321C5C6E3EC4" value="true"/>
+<item key="9200F579-A093-BFE7-82F1-68BB2098C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="21D39E77-014A-B219-B2C4-FC583AF85828">
+<createdBy>oracle</createdBy>
+<createdTime>2020-10-29 15:34:10 UTC</createdTime>
+<ownerDesignName>model_nasz</ownerDesignName>
+<engineerTo>
+<item key="8ACFF2B7-3444-29DD-0328-321C5C6E3EC4" value="true"/>
+<item key="9200F579-A093-BFE7-82F1-68BB2098C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="2C300CDA-191C-6335-E518-C06CDF643B84">
+<createdBy>oracle</createdBy>
+<createdTime>2020-10-29 15:34:37 UTC</createdTime>
+<ownerDesignName>model_nasz</ownerDesignName>
+<engineerTo>
+<item key="8ACFF2B7-3444-29DD-0328-321C5C6E3EC4" value="true"/>
+<item key="9200F579-A093-BFE7-82F1-68BB2098C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AcademicTitle" id="5B561A7F-5190-218F-4C1F-3680701022EF">
+<createdBy>oracle</createdBy>
+<createdTime>2020-10-29 17:35:53 UTC</createdTime>
+<ownerDesignName>model_nasz</ownerDesignName>
+<engineerTo>
+<item key="8ACFF2B7-3444-29DD-0328-321C5C6E3EC4" value="true"/>
+<item key="9200F579-A093-BFE7-82F1-68BB2098C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDLoggingData" id="783AB0A9-F6CA-C048-D469-63EBE8B103EC">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:04:58 UTC</createdTime>
+<generatorID>21B91B6A-03EC-EAAB-4C26-2654047E11F8</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<engineerTo>
+<item key="8ACFF2B7-3444-29DD-0328-321C5C6E3EC4" value="true"/>
+<item key="9200F579-A093-BFE7-82F1-68BB2098C93C" value="true"/>
+</engineerTo>
+<referedAttribute>998C7ADF-0CA6-6271-EC63-672716841ECE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71BEA6CE-049E-76DD-4C95-444F68FCE225" name="Examiner PK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-10-29 15:34:05 UTC</createdTime>
+<ownerDesignName>model_nasz</ownerDesignName>
+<engineerTo>
+<item key="8ACFF2B7-3444-29DD-0328-321C5C6E3EC4" value="true"/>
+<item key="9200F579-A093-BFE7-82F1-68BB2098C93C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B0CF220-C393-A39B-7168-41BEA6B282B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DACFD02-45CB-6B80-D5AD-BC6A49CA00DE" name="StudentAnswer">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>D748C7E3-1726-4A6F-868A-D058A6CF4EF7</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDStudentAnswer" id="3F55FB42-0A82-2024-B011-82CB739D72A8">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>50348177-4E39-03E6-F589-292C2521A226</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDQuestion" id="27793F73-6871-3596-E3A6-CBFC8AE92CBC">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>49CD25B2-6123-BB99-CBFE-0C60011E0BB9</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F996708-7255-1F3E-B744-846682478186" referredColumn="DC33959C-7986-BB51-623F-001D1059608A"/>
+</associations>
+</Column>
+<Column name="GainedPoints" id="E2560F83-52BE-49B3-58BE-CA5BFE644B65">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>BC1844DE-B28B-CC00-A60E-7B1CEC0B2280</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpenAnswerContent" id="89C4A0F1-6CCE-CE5F-1FDA-41C97F458CA0">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>D4D95FC5-5687-495A-78E1-8CDDD77839A1</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDStudent" id="93252E35-27C5-0883-CF85-739080E521D6">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>5758161D-E180-1360-90F7-78C976F06678</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C91108F8-1CCC-FAEF-CA16-A3C248597B5C" referredColumn="FC8AB408-52C2-4C08-BE4C-D3FDB0153163"/>
+</associations>
+</Column>
+<Column name="IDExam" id="3A21818D-C576-A4AF-598E-AF002BD7DC98">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>F145B844-E446-B48F-BE72-2F4CA2F167D0</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C91108F8-1CCC-FAEF-CA16-A3C248597B5C" referredColumn="5D4A16AF-CF57-4BE6-FCDE-F8BB1F856901"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F495104-68F4-AB4E-9DC4-E3B77957B2B8" name="StudentAnswer_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>448C10E3-701A-9691-4264-110CFCCF1414</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F55FB42-0A82-2024-B011-82CB739D72A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D42F8F50-E28C-D7E9-ACCE-B9153F9532D1" name="StudentAnswer_ExamScore_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>2A3E01D3-14CC-D44D-8997-C750D46BDCD6</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93252E35-27C5-0883-CF85-739080E521D6"/>
+<colUsage columnID="3A21818D-C576-A4AF-598E-AF002BD7DC98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54F72FBF-DC5E-E346-11FB-72F178E8EAEB" name="StudentAnswer_Question_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>76AA4B60-7CD1-91B8-8AAC-8362A06D6A63</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27793F73-6871-3596-E3A6-CBFC8AE92CBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

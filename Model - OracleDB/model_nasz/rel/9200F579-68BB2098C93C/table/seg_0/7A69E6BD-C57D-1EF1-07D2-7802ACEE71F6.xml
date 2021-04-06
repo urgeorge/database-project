@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A69E6BD-C57D-1EF1-07D2-7802ACEE71F6" name="Course">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>A500C895-CFCD-A6E5-4FB1-51035AFF101D</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCourse" id="63833A40-7353-2447-55FE-13A61A566CC1">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>D1B67866-42D6-4E51-3318-80CB11CE300E</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CourseName" id="044CE16E-E6E5-678D-9FB7-13AC8632258F">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>160CEF86-9E65-0CF2-9836-DE64E8C51E46</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="411A3A72-24D9-2006-7459-BB75A80AC5D3" name="Course_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>F5B3603A-316F-5D77-C5F3-44E2F115327B</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63833A40-7353-2447-55FE-13A61A566CC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A1AC5AC-BAB3-31E8-DB0A-42F8F274A2EF" name="Course_CourseName_UN">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-06 09:17:57 UTC</createdTime>
+<generatorID>D1AAA399-42E1-9092-9128-CC8C0233A0F7</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044CE16E-E6E5-678D-9FB7-13AC8632258F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

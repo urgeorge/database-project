@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55A9C1AB-A02C-347C-B753-D141544EF7B5" containerWithKeyObject="D6B73C46-E12F-A4F3-762D-AFB2E39BC770" localFKIndex="E270D5FB-6F57-F712-733C-6E0E513777B9" name="Student_LoggingData_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>FD884B22-E28B-E92E-7F2C-D767E5F7EAD9</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<referredTableLongName>LoggingData</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CF3FD20-8B2D-4C65-4F4E-5A390C4F7928</referredTableID>
+<keyObject>374AC550-324A-F85C-B32F-E11F7C08AFAF</keyObject>
+<referredKeyID>374AC550-324A-F85C-B32F-E11F7C08AFAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDLoggingData</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

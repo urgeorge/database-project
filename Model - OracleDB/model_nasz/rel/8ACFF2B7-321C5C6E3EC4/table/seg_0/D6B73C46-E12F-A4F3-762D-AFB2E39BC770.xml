@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B73C46-E12F-A4F3-762D-AFB2E39BC770" name="Student">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>DF5F4101-453D-D895-BFF4-57E9369D59A1</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDStudent" id="5773FB8C-1E76-CB17-9B9A-F113A268F199">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>02B965C5-B58E-50B6-FE0A-4B2B183B81AC</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IndexNumber" id="915D06BC-4B32-3422-3D68-443C4B6B8F9B">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>96AE04C9-E73D-6655-AC25-63A8E6453BE1</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="F39C4153-8DAD-94C6-0978-FD1E6D06B3FD">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>7FE02BA0-DDE5-958A-4AAD-081A590B787B</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Surname" id="4B267043-E6B4-A879-1BC4-D01EB629011F">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>92F6E180-D118-FC55-C357-2A7B89263929</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="5D3419A4-CCD3-1112-3F9F-D25CED20D645">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>CD38D482-CD74-5960-73EA-6212EB74E836</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YearOfStudy" id="D46FAE7F-DF56-F19B-49E2-6C6BFD6743BB">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>0E0883A9-90D2-03EA-660E-EFF475DA6BAE</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDLoggingData" id="9254B4A2-F501-7B05-215D-8057EDF21A8C">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>A503104D-68C4-D329-3D0B-25E9854EF644</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55A9C1AB-A02C-347C-B753-D141544EF7B5" referredColumn="83E09850-B564-5875-0AD8-6ACB0836FFDF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C3F7057-EFA7-3257-AB37-72F4F6F257B5" name="Student_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>1AB38EB1-C706-C398-2838-93A694834170</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5773FB8C-1E76-CB17-9B9A-F113A268F199"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC6EB592-C5D2-B0DC-8DF4-44F2F155C341" name="Student_PESEL_UN">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>20BB4C07-B0A6-29C7-8078-8BAE9337BD9D</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39C4153-8DAD-94C6-0978-FD1E6D06B3FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6032FD5E-BF34-BC85-D8DB-E4DB2FB522B6" name="Student_IndexNumber_UN">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>0DC132E2-0E6C-AEC0-639E-2A69DBDC286C</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="915D06BC-4B32-3422-3D68-443C4B6B8F9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79E985D6-44F5-CFF6-B17E-276E5CF2350C" name="Student__IDX">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FD884B22-E28B-E92E-7F2C-D767E5F7EAD9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9254B4A2-F501-7B05-215D-8057EDF21A8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E270D5FB-6F57-F712-733C-6E0E513777B9" name="Student_LoggingData_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>FD884B22-E28B-E92E-7F2C-D767E5F7EAD9</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9254B4A2-F501-7B05-215D-8057EDF21A8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

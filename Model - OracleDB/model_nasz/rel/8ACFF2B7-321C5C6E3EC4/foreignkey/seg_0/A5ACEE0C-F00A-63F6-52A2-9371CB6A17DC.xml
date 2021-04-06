@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5ACEE0C-F00A-63F6-52A2-9371CB6A17DC" containerWithKeyObject="FF000C9F-1157-3068-F878-C4294EE27540" localFKIndex="54BDD053-1655-BDFD-0734-CDA531353F79" name="Examiner_LoggingData_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2020-11-09 10:05:55 UTC</createdTime>
+<generatorID>21B91B6A-03EC-EAAB-4C26-2654047E11F8</generatorID>
+<ownerDesignName>model_nasz</ownerDesignName>
+<referredTableLongName>LoggingData</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CF3FD20-8B2D-4C65-4F4E-5A390C4F7928</referredTableID>
+<keyObject>374AC550-324A-F85C-B32F-E11F7C08AFAF</keyObject>
+<referredKeyID>374AC550-324A-F85C-B32F-E11F7C08AFAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDLoggingData</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
