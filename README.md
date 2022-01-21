@@ -1,4 +1,6 @@
 # Projekt-OracleDB
-Projekt bazodanowy utworzony przy pomocy OracleDB na potrzeby uczelni
-
-Model został utworzony przy pomocy środowiska Oracle SQL Developer.
+##General
+Database project created for the university purposes. The project was aimed at creating and describing a database for the system supporting tests at the university.
+##Technologies
+** OracleDB
+** Oracle SQL Developer
